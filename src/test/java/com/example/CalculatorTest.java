@@ -13,6 +13,6 @@ class CalculatorTest {
     @Test
     void subMethod() {
         Calculator calc = new Calculator();
-        assertEquals(20,calc.subMethod(15,5));
+        assertEquals(10,calc.subMethod(15,5));
     }
 }
