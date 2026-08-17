@@ -10,4 +10,9 @@ class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(20,calc.addMethod(15,5));
     }
+    @Test
+    void subMethod() {
+        Calculator calc = new Calculator();
+        assertEquals(20,calc.subMethod(15,5));
+    }
 }
